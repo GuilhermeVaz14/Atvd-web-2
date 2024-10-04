@@ -1,0 +1,31 @@
+#container{
+    display: flex;
+}
+#botao {
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #botao:hover {
+    background-color: #218838;
+    width: auto;
+}
+@media(max-width:768px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    #img1{
+        width: 100%;
+        padding-right: 2vw;
+    }
+}
+#img1{
+    width: 20rem;
+    padding-right: 2vw;
+}

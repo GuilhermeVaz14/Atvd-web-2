@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    #ul1{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #AFAFAF;
+        gap: 2vh;
+    }
+}
+
+    #ul1{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #AFAFAF;
+        gap: 2vh;
+    }
+
+
+
+.a1{
+    text-decoration: none;
+    color: black;
+}
